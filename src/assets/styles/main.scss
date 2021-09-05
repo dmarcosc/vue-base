@@ -1,0 +1,24 @@
+
+.v-application--wrap {
+    position: initial;
+    min-height: auto;
+}
+
+.app-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position:absolute;
+    width: 100%;
+}
+
+//icono fondo en funcion a la clase
+.alert-dialog-pass.warning-img .mdc-dialog__title-inner.icon .f-icon {
+    background:url('../../assets/images/warning.svg') no-repeat;
+}
+.alert-dialog-pass.error-img .mdc-dialog__title-inner.icon .f-icon {
+    background:url('../../assets/images/info.svg') no-repeat;
+}
+.alert-dialog-pass.face-img .mdc-dialog__title-inner.icon .f-icon {
+    background:url('../../assets/images/face.svg') no-repeat;
+}
